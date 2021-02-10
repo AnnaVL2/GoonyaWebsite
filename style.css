@@ -254,8 +254,8 @@ p:hover:nth-of-type(3) {
   padding: 2rem;
   position: absolute;
   display: block;
-  width: 2rem;
-  height: 2rem;
+  width: 1.5rem;
+  height: 1.5rem;
   border-radius: 50%;
   background-color: rgba(243, 243, 11, 0.7);
   background-color: rgba(65, 65, 56, 0.4);
