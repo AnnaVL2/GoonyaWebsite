@@ -365,23 +365,23 @@ p:hover:nth-of-type(3) {
 }
 
 .panel1 {
-  background-image: url("/assets/images/full/01_full_resized.png");
+  background-image: url("01_full_resized.png");
 }
 
 .panel2 {
-  background-image: url("/assets/images/full/02_full.png");
+  background-image: url("full/02_full.png");
 }
 
 .panel3 {
-  background-image: url("/assets/images/full/03_full.png");
+  background-image: url("03_full.png");
 }
 
 .panel4 {
-  background-image: url("/assets/images/full/04_full_resized.png");
+  background-image: url("04_full_resized.png");
 }
 
 .panel5 {
-  background-image: url("/assets/images/full/05_full.png");
+  background-image: url("05_full.png");
 }
 
 .panel6 {
