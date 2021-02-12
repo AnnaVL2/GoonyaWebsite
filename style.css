@@ -10,6 +10,7 @@ html {
 }
 
 body {
+  height: 100vh;
   text-align: center;
   overflow: hidden;
 }
@@ -18,20 +19,16 @@ section {
   height: 100vh;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  -ms-grid-columns: repeat 12fr;
-      grid-template-columns: repeat 12fr;
 }
 
 header {
   height: 9vh;
-  grid-column: span 12;
   background-color: white;
 }
 
 main {
   height: 91vh;
   grid-column: span 12;
-  background-color: white;
 }
 
 .contentHeader {
@@ -96,12 +93,12 @@ h2:hover {
 
 .links {
   width: 55rem;
-  -webkit-box-align: left;
-      -ms-flex-align: left;
-          align-items: left;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
+  margin: -1rem;
+  text-align: left;
+}
+
+.linksRight {
+  width: 55rem;
   margin: -1rem;
   text-align: left;
 }
@@ -129,13 +126,13 @@ a:hover {
 }
 
 a:hover #shape1:hover {
-  background-color: rgba(233, 94, 164, 0.5);
+  background-color: rgba(236, 157, 243, 0.2);
   -webkit-transition: 3s background-color cubic-bezier(0.63, 0.18, 0, 1.79);
   transition: 3s background-color cubic-bezier(0.63, 0.18, 0, 1.79);
 }
 
-a:hover #shape3:hover {
-  background-color: #cfc63d;
+a:hover #shape2:hover {
+  background-color: rgba(253, 252, 229, 0.1);
   -webkit-transition: 2s background-color cubic-bezier(0.63, 0.18, 0, 1.79);
   transition: 2s background-color cubic-bezier(0.63, 0.18, 0, 1.79);
 }
@@ -153,7 +150,7 @@ a:hover #shape3:hover {
 
 .mainMenu a {
   display: inline-block;
-  color: #8b8b89;
+  color: #d6d6d4;
   font-size: 1.7rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -165,6 +162,7 @@ a:hover #shape3:hover {
 .mainMenu a:hover {
   font-family: 'Montserrat', sans-serif;
   color: #383831;
+  color: #17b976;
   -webkit-transition: 500ms color cubic-bezier(0.63, 0.18, 0, 1.79);
   transition: 500ms color cubic-bezier(0.63, 0.18, 0, 1.79);
 }
@@ -244,23 +242,12 @@ p:hover:nth-of-type(3) {
   display: block;
   width: 3rem;
   height: 3rem;
-  background-color: rgba(146, 146, 96, 0.4);
+  border-style: dashed;
+  border-width: thin;
+  border-color: #fd9104;
+  border-color: #b458f1;
   -webkit-animation: shape1 7s ease-in-out infinite alternate;
           animation: shape1 7s ease-in-out infinite alternate;
-}
-
-#shape3 {
-  margin-top: -1rem;
-  padding: 2rem;
-  position: absolute;
-  display: block;
-  width: 1.5rem;
-  height: 1.5rem;
-  border-radius: 50%;
-  background-color: rgba(243, 243, 11, 0.7);
-  background-color: rgba(65, 65, 56, 0.4);
-  -webkit-animation: shape3 2s ease-in-out infinite alternate;
-          animation: shape3 2s ease-in-out infinite alternate;
 }
 
 @-webkit-keyframes shape1 {
@@ -289,7 +276,22 @@ p:hover:nth-of-type(3) {
   }
 }
 
-@-webkit-keyframes shape3 {
+#shape2 {
+  margin-top: -1rem;
+  padding: 2rem;
+  position: absolute;
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border-style: dashed;
+  border-width: thin;
+  border-color: #b458f1;
+  -webkit-animation: shape2 2s ease-in-out infinite alternate;
+          animation: shape2 2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes shape2 {
   from {
     -webkit-transform: translate(6px, 5%);
             transform: translate(6px, 5%);
@@ -302,7 +304,7 @@ p:hover:nth-of-type(3) {
   }
 }
 
-@keyframes shape3 {
+@keyframes shape2 {
   from {
     -webkit-transform: translate(6px, 5%);
             transform: translate(6px, 5%);
@@ -365,75 +367,75 @@ p:hover:nth-of-type(3) {
 }
 
 .panel1 {
-  background-image: url("01_full.jpg");
+  background-image: url("/assets/images/full/01_full_resized.png");
 }
 
 .panel2 {
-  background-image: url("02_full.jpg");
+  background-image: url("/assets/images/full/02_full.png");
 }
 
 .panel3 {
-  background-image: url("03_full.jpg");
+  background-image: url("/assets/images/full/03_full.png");
 }
 
 .panel4 {
-  background-image: url("04_full.jpg");
+  background-image: url("/assets/images/full/04_full_resized.png");
 }
 
 .panel5 {
-  background-image: url("05_full.jpg");
+  background-image: url("/assets/images/full/05_full.png");
 }
 
 .panel6 {
-  background-image: url("06_full.jpg");
+  background-image: url("/assets/images/full/06_full.png");
 }
 
 .panel7 {
-  background-image: url("07_full.jpg");
+  background-image: url("/assets/images/full/07_full.png");
 }
 
 .panel8 {
-  background-image: url("08_full.jpg");
+  background-image: url("/assets/images/full/08_full.png");
 }
 
 .panel9 {
-  background-image: url("09_full.jpg");
+  background-image: url("/assets/images/full/09_full.png");
 }
 
 .panel10 {
-  background-image: url("10_full.jpg");
+  background-image: url("/assets/images/full/10_full.png");
 }
 
 .panel11 {
-  background-image: url("11_full.jpg");
+  background-image: url("/assets/images/full/11_full.png");
 }
 
 .panel12 {
-  background-image: url("12_full.jpg");
+  background-image: url("/assets/images/full/12_full.png");
 }
 
 .panel13 {
-  background-image: url("13_full.jpg");
+  background-image: url("/assets/images/full/13_full.png");
 }
 
 .panel14 {
-  background-image: url("14_full.jpg");
+  background-image: url("/assets/images/full/14_full.png");
 }
 
 .panel15 {
-  background-image: url("15_full.jpg");
+  background-image: url("/assets/images/full/15_full.png");
 }
 
 .panel16 {
-  background-image: url("16_full.jpg");
+  background-image: url("/assets/images/full/16_full.png");
 }
 
 .panel17 {
-  background-image: url("17_full.jpg");
+  background-image: url("/assets/images/full/17_full.png");
 }
 
 .panel18 {
-  background-image: url("18_full.jpg");
+  background-image: url("/assets/images/full/18_full.png");
 }
 
 #myDIV {
@@ -459,7 +461,6 @@ p:hover:nth-of-type(3) {
   height: 200px;
 }
 
-
 .cursor {
   position: relative;
   width: 17rem;
@@ -469,18 +470,16 @@ p:hover:nth-of-type(3) {
 .cursor .circle {
   position: absolute;
   top: -115%;
-  left: 50%;
+  left: 0;
   width: 100%;
   height: 100%;
-  border-style: dashed;
   border-style: dotted;
   border-width: thin;
   border-color: #fd9104;
   border-color: #bfe928;
-  border-color: #b458f1;
+  border-color: #562ee9;
   border-radius: 50%;
   -webkit-animation: circle 2500ms ease-in-out infinite alternate;
           animation: circle 2500ms ease-in-out infinite alternate;
 }
-
 /*# sourceMappingURL=style.css.map */
