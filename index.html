@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+ <!-- <body>
        <header>
             <a href="index.html" style="padding-top: 2.2rem;">
-             <!--   <div id="shape1"></div> -->
+                <div id="shape1"></div>
                 <div id="shape3"></div>
             </a>
         </header>
@@ -25,6 +25,90 @@
             </div>
         </main>
   
+</body> -->
+    <body>
+    <section>
+        <header>
+            <div class="container">
+                <div class="cursor">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="links">
+                <a href="art.html">ART</a>
+                <a href="about.html" style="margin-top: -7rem;">ABOUT</a>
+            </div>
+        </main>
+    </section>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script>
+        document.body.addEventListener("mousemove", e => {
+            gsap.to(".circle", {
+                x: e.clientX,
+                y: e.clientY,
+                stagger: -0.05,
+            })
+        })
+    </script>
 </body>
 
 </html>
