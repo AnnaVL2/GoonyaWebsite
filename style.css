@@ -126,13 +126,13 @@ a:hover {
 }
 
 a:hover #shape1:hover {
-  background-color: rgba(236, 157, 243, 0.2);
+  background-color: rgba(103, 233, 91, 0.1);
   -webkit-transition: 3s background-color cubic-bezier(0.63, 0.18, 0, 1.79);
   transition: 3s background-color cubic-bezier(0.63, 0.18, 0, 1.79);
 }
 
 a:hover #shape2:hover {
-  background-color: rgba(253, 252, 229, 0.1);
+  background-color: rgba(235, 247, 71, 0.2);
   -webkit-transition: 2s background-color cubic-bezier(0.63, 0.18, 0, 1.79);
   transition: 2s background-color cubic-bezier(0.63, 0.18, 0, 1.79);
 }
