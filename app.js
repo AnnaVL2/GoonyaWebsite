@@ -8,10 +8,10 @@ previews.forEach(preview => {
         modal.classList.add('open');
         original.classList.add('open');
         //Dynamic change text&image
-//        const originalSrc = preview.getAttribute('data-original');
-//       original.src = `${originalSrc}`;
-//        const altText = preview.alt;
-//        caption.textContent = altText
+        const originalSrc = preview.getAttribute('data-original');
+       original.src = `${originalSrc}`;
+        const altText = preview.alt;
+        caption.textContent = altText
     });
 });
 
@@ -20,6 +20,6 @@ modal.addEventListener('click', (e) => {
         modal.classList.remove('open');
         original.classList.add('open');
         
-//        original.classList.remove('open');
+  //      original.classList.remove('open');
     }
 });
