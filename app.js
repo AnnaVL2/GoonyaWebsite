@@ -3,13 +3,13 @@ const previews = document.querySelectorAll('.gallery img');
 const original = document.querySelector('.full-img');
 const caption = document.querySelector('.caption');
 
-previews.forEach(preview => {
+previews.forEach((preview) => {
     preview.addEventListener('click', () => {
         modal.classList.add('open');
         original.classList.add('open');
         //Dynamic change text&image
         const originalSrc = preview.getAttribute('data-original');
-        original.src = `.full/${originalSrc}`;
+        original.src = originalSrc;
         const altText = preview.alt;
         caption.textContent = altText;
     });
