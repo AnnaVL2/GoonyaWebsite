@@ -417,7 +417,7 @@ p:hover:nth-of-type(1) {
 }
 
 .full-img.open {
-  -webkit-transform: translate(-50%, -40%) scale(1);
-          transform: translate(-50%, -40%) scale(1);
+  -webkit-transform: translate(-50%, -36%) scale(1);
+          transform: translate(-50%, -36%) scale(1);
 }
 /*# sourceMappingURL=style.css.map */
