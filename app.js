@@ -9,9 +9,9 @@ previews.forEach(preview => {
         original.classList.add('open');
         //Dynamic change text&image
         const originalSrc = preview.getAttribute('data-original');
-       original.src = `${originalSrc}`;
+        original.src = `.full/${originalSrc}`;
         const altText = preview.alt;
-        caption.textContent = altText
+        caption.textContent = altText;
     });
 });
 
